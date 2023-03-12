@@ -6,10 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock-paper-scissors</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <script src="./rock-paper-scissors.js"></script>
+    <h1>Rock Paper Scissors</h1>
+    <h3>Only 1 rule: First Player to get to 5 points wins!</h3>
+
+    <div class="buttons">
+        <button class="option1">rock</button>
+        <button class="option2">paper</button>
+        <button class="option3">scissors</button>
+    </div>
+    <h2>SCOREBOARD</h2>
+    <div class="result">
+        Player Score <span id="p-score">0</span> - <span id="c-score">0</span> Computer Score
+    </div>
+    <div class="prints">
+        <div id="stageWinner"></div>
+        <div id="finalScore"> </div>
+    </div>
+    <div id="footer">
+        Ovokeiv DEV
+    </div>
 </body>
 
 </html>
