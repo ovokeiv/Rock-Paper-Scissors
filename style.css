@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    margin: 100px 250px 100px 250px;
+    background: turquoise;
+    border-width: 5px;
+    border-color: darkslategray;
+    border-style: ridge;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h3,
+h2 {
+    text-align: center;
+}
+
+button {
+    border: radius 9px;
+    flex: 1;
+}
+
+.result {
+    text-align: center;
+}
+
+.prints {
+    text-align: center;
+}
+
+.buttons {
+    height: 65px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.option1 {
+    background-color: black;
+    font-size: larger;
+    color: white;
+    border-radius: 19px;
+}
+
+.option2 {
+    border-radius: 19px;
+    font-size: larger;
+}
+
+.option3 {
+    background-color: midnightblue;
+    color: white;
+    border-radius: 19px;
+    font-size: larger;
+}
+
+#stageWinner {
+    padding: 10px;
+}
+
+#finalScore {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#footer {
+    
+    padding: 5px;
+    font-style: oblique;
+    font-size: 13px;
+    text-align: center;
+}
